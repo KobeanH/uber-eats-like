@@ -5,6 +5,8 @@ export const fetchRestaurants = () => {
   return axios
     .get(restaurantsIndex)
     .then((res) => {
+      //  console.log(res);
+      //  console.log(res.data);
       return res.data;
     })
     .catch((e) => console.error(e));
