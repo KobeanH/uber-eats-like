@@ -12,4 +12,3 @@ export const postOrder = (params) => {
     })
     .catch((e) => console.error(e));
 };
-// --- ここまで追加 ---
