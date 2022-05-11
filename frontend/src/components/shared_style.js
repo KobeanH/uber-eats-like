@@ -14,8 +14,6 @@ export const BaseButton = styled.button`
   }
 `;
 
-// 角丸なボタン
-// BaseButtonを継承していることに注意
 export const RoundButton = styled(BaseButton)`
   width: 42px;
   height: 42px;
@@ -23,4 +21,3 @@ export const RoundButton = styled(BaseButton)`
   border: none;
   background-color: ${COLORS.SUB_BUTTON};
 `;
-// --- ここまで追加 ---
